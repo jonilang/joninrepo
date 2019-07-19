@@ -43,7 +43,7 @@ def marjukan():
           print(f"\nListasi halvimmat tuotteet ovat {', '.join(halvimmattuotteet[:-1])} ja {halvimmattuotteet[-1]}. Niistä jokaisen hinta on {halvin}.")
 
     return hintalaskuri(haetaantiedot())
-marjukan()
+
 
 
 
