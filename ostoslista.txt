@@ -1,0 +1,9 @@
+appelsiini 2
+omenat 5
+sitruuna 1
+rypäleet 0.5
+banaanit 15
+päärynä 2
+meloni 5
+viikunat 500
+mansikat 10
