@@ -70,6 +70,18 @@ def annamarian():
 		print("Edullisin: ", x)
 		print("Kalliin: ", y)
 
+                  
+		if (jatkuu == 'k'): 
+			i=1
+			print(table)
+        
+		x=min(table)
+		y=max(table)
+    
+		print("Edullisin: ", x)
+		print("Kalliin: ", y)
+		
+
 def jonin():
 
   class Tuote:
@@ -106,6 +118,8 @@ def jonin():
       break
 
     elif syote == 'lisää':
+
+      
 
       tuote = input('Anna tuote: ')
       hinta = input('Anna hinta: ')
