@@ -1,5 +1,6 @@
 '''
 Marjukan fruitsalad-ohjelma
+uusi kommmentti
 '''
 def marjukan():
     def haetaantiedot():
@@ -43,7 +44,7 @@ def marjukan():
           print(f"\nListasi halvimmat tuotteet ovat {', '.join(halvimmattuotteet[:-1])} ja {halvimmattuotteet[-1]}. Niistä jokaisen hinta on {halvin}.")
 
     return hintalaskuri(haetaantiedot())
-	
+
 def annamarian():
 
 	values = ()
@@ -58,6 +59,17 @@ def annamarian():
 		jatkuu=input('onko salaatti valmis? [k/e]? ')
 		values=(tuote,hinta)
 		table.append(values)
+
+		if (jatkuu == 'k'):
+			i=1
+			print(table)
+
+		x=min(table)
+		y=max(table)
+
+		print("Edullisin: ", x)
+		print("Kalliin: ", y)
+
                   
 		if (jatkuu == 'k'): 
 			i=1
@@ -69,6 +81,7 @@ def annamarian():
 		print("Edullisin: ", x)
 		print("Kalliin: ", y)
 		
+
 def jonin():
 
   class Tuote:
@@ -105,7 +118,9 @@ def jonin():
       break
 
     elif syote == 'lisää':
+
       
+
       tuote = input('Anna tuote: ')
       hinta = input('Anna hinta: ')
       uusiTuote = Tuote(tuote, int(hinta))
